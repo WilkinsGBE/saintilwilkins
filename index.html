@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>My Personal Portfolio - Wilkins Saintil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="welcome.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+<script src="https://kit.fontawesome.com/65f6de7de0.js" crossorigin="anonymous"></script>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/enfinnn.png">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                <div class="social-icons2">
+                    <a href="https://www.instagram.com/wilkinss.1/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/wilkins-saintil-a79207286/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/WilkinsGBE"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>          
+        </nav>
+        <div class="header-text">
+            <p>Front-End Designer</p>
+            <h1>Hi, I'm <span class="first-span">Wilkins </span>Saintil<br>I'm From <span class="second-span">Montreal</span></h1>
+        </div>
+    </div>    
+</div>
+<!-- About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <h1 class="subtitle">About Me</h1>
+                <img src="images/momm.png" alt="">
+            </div>
+            <div class="about-col-2">
+                 <h1 class="subtitle">About Me</h1>
+                 <p>I am currently a student in Computer Science, in a programmation profil - Web and App Development.<br><br>
+                 I plan to study Software Enginner at Mcgill University when I finish my DEC.</p>
+                 <div class="table">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Developer</span><br> Creating Website</li>
+                        <li><span>Front-End Development</span><br>HTML/CSS and Javascript</li>
+                        <li><span>Back-end Development</span><br>Python and Javascript</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Freelance Softwaare Developer</span><br>Real Estate Website</li>
+                    </ul>    
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>College d'Anjou</li>
+                        <li><span>2024</span><br>College Rosemont - Computer Science</li>
+                        <li><span>Coming Soon...</span><br>McGill University - Software Enginnering</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------Service-------- --> 
+<div id="service">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Website Creation</h2>
+                <p>Basic Website creation from the header to the sells sections!
+                     Contact Me for more Information</p>
+                     <a href="#contact">Contact Me</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h2>Website Consultation</h2>
+                <p>For any struggle you have with a website from Networking to Optimizing 
+                    your SEO to make more sells!</p>
+                     <a href="#contact">Contact Me</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <h2>4PF Partnership</h2>
+                <p>Do not take this one serious &#128514;.</p>
+                     <a href="#contact">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="Work">
+               <img src="images/facet.png">
+               <div class="layer">
+                    <h3>Adventist Church Website.</h3>
+                    <p>My next project will be building a website for my Church</p>
+                    <a href="#"><i class="fa-solid fa-hands-praying"></i></a>
+               </div>
+            </div>
+            <div class="Work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the more talented people around the world.
+                        Download it on the App Store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----------------Contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> saintilwilkins@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/wilkinss.1/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/wilkins-saintil-a79207286/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/WilkinsGBE"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2 btn4">Download CV</a>
+            </div>    
+                <div class="contact-right">
+                    <form  id="contactForm" action="https://script.google.com/macros/s/AKfycbyjaaIXAVQ-BQWWcSueG7JPoN2K0ykzjEXGAzGffmCZKZvxf-U7YX1yx68tLOIPcIh2/exec">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="6" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <div id="successMessage" style="display: none; color: green;">Message Sent Successfully</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Wilkins. Made with GreatStack on Youtube</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+
+
+</body>    
+</html>
