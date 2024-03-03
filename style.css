@@ -95,7 +95,7 @@ nav ul li a:hover::after{
     margin-bottom: 30%;
     font-family: 'Poppins';
     opacity: 0;
-    animation: fadeInAnimation ease-in 3s;
+    animation: fadeInAnimation ease-in 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
 }
@@ -116,7 +116,7 @@ nav ul li a:hover::after{
 
 .header-text h1 .first-span{
     font-family: 'Poppins';
-    animation: fadeInAnimation ease-in 3s;
+    animation: fadeInAnimation ease-in 1.5s;
     animation-fill-mode: both;
     background-image: linear-gradient(43deg, #4158D0 0%, #C580C0 36%, #FFCC70 100%);
     background-clip: text;
