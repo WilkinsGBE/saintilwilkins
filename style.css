@@ -51,6 +51,7 @@ nav ul li a{
     font-weight: bold;
 }
 
+
 /*---------------- social icons2 ------------- */
 
 .social-icons2 a{
@@ -85,19 +86,34 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 14%;
+    margin-top: 10%;
     font-size: 30px;
 }
 
 .header-text h1 {
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 20px;
-    margin-bottom: 30%;
+    margin-bottom: 5%;
     font-family: 'Poppins';
     opacity: 0;
     animation: fadeInAnimation ease-in 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
+}
+
+#greeting {
+    font-size: 55px;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    background: #fffbd5;  /* fallback for old browsers */
+    background: linear-gradient(43deg, #4158D0 0%, #C580C0 36%, #FFCC70 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#person {
+    color: #fff;
 }
 
 .header-text p{
@@ -116,7 +132,7 @@ nav ul li a:hover::after{
 
 .header-text h1 .first-span{
     font-family: 'Poppins';
-    animation: fadeInAnimation ease-in 1.5s;
+    animation: fadeInAnimation ease-in 2s;
     animation-fill-mode: both;
     background-image: linear-gradient(43deg, #4158D0 0%, #C580C0 36%, #FFCC70 100%);
     background-clip: text;
@@ -130,7 +146,11 @@ nav ul li a:hover::after{
     text-decoration: underline;
     text-decoration-color: #4A07EE;
 }
-
+.Gif img {
+    width: 6cm;
+    height: 6cm;
+    margin-bottom: 0%;
+}
 
 /* --------------------- About ---------------------*/
 #about{
@@ -431,7 +451,7 @@ form .btn2{
 .copyright{
     width: 100%;
     text-align: center;
-    padding: 25px 0;
+    padding: 20px 0;
     background: #87CEEB;
     font-weight: 300;
     margin-top: 20px;
@@ -442,3 +462,9 @@ form .btn2{
     margin-top: -40px;
     display: block;
 }
+
+.Gif2 img {
+    width: 5cm;
+    height: 5cm;
+}
+

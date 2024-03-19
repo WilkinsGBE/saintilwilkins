@@ -14,11 +14,20 @@ nav .fa-solid{
 
     .header-text h1 .first-span{
         font-family: 'Poppins';
-        animation: fadeInAnimation ease-in 3s;
+        animation: fadeInAnimation ease-in 2s;
         animation-fill-mode: both;
         color: #4A07EE;
     }
 
+    #greeting {
+        color: lightgray;
+        font-size: 40px;
+        font-family: 'Poppins';
+    }
+
+    .Gif  {
+        display: none;
+    }
 
     nav .fa-solid{
         display: block;
@@ -56,7 +65,7 @@ nav .fa-solid{
         font-size: 40px;
     }
     .about-col-1, .about-col-2{
-        flex-basis: 100%;
+        flex-basis: 90%;
     }
     .about-col-1{
         margin-bottom: 40px;
@@ -64,6 +73,8 @@ nav .fa-solid{
 
     .about-col-1 h1{
         display: block;
+        text-align: center;
+        margin-bottom: 10px;
     }
 
     .about-col-2{
@@ -86,6 +97,10 @@ nav .fa-solid{
     .contact-right{
         margin-bottom: 20px;
     }
+
+    .Gif2 img {
+        display: none;
+
     .copyright{
         font-size: 14px;
     }
@@ -238,7 +253,9 @@ nav .fa-solid{
     transition: transform 0.5s;
 }
 
-.social-icons2 a:hover{
+.social-icons2 a:hover {
     color: #4A07EE;
     transform: translateY(-5px);
+}
+
 }
