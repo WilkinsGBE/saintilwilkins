@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
           index = 0; 
       }
   }
-
+  displayPerson();
+  
   const interval = setInterval(displayPerson, 2000); 
 });
