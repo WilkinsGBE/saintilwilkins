@@ -9,6 +9,10 @@ html{
     scroll-behavior: smooth;
 }
 
+link[rel="icon"] {
+    size: 150%;
+}
+
 body{
     background: #080808;
     color: #fff;
