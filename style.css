@@ -24,6 +24,16 @@ body{
     background-image: url(images/1920s.png);
     background-size: cover;
     background-position: center;
+    margin-bottom: 60px;
+}
+
+#header img.phone_picture{
+    display: block;
+    float: right;
+    margin-top: -135px;
+    margin-right: -115px;
+    height: 50%;
+    width: 50%;
 }
 
 .container{
@@ -106,7 +116,7 @@ nav ul li a:hover::after{
 }
 
 #greeting {
-    font-size: 55px;
+    font-size: 65px;
     margin-top: 20px;
     font-family: 'Poppins';
     background: #fffbd5;  /* fallback for old browsers */
@@ -149,11 +159,6 @@ nav ul li a:hover::after{
     font-family: 'Poppins';
     text-decoration: underline;
     text-decoration-color: #4A07EE;
-}
-.Gif img {
-    width: 6cm;
-    height: 6cm;
-    margin-bottom: 0%;
 }
 
 /* --------------------- About ---------------------*/
