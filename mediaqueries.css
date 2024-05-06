@@ -16,16 +16,13 @@ nav .fa-solid{
     }
 
     #greeting {
-        color: lightgray;
         font-size: 45px;
-        font-family: 'Poppins';
     }
 
     nav .fa-solid{
         display: block;
         font-size: 25px;
     } 
-
     nav ul{
         background: #0758ee;
         position: fixed;
@@ -48,22 +45,18 @@ nav .fa-solid{
         font-weight: bold;
 
     }
-
     nav ul .fa-solid{
         position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
     }
-
     .subtitle{
         font-size: 40px;
     }
-
     .about-col-1, .about-col-2{
         flex-basis: 90%;
     }
-
     .about-col-1{
         margin-bottom: 40px;
     }
@@ -168,6 +161,10 @@ nav .fa-solid{
         transition: background 0.5s;
     }
 
+    #header {
+        margin-bottom: 20px;
+    }
+
     .header-text p{
         font-weight: bold;
         font-family: 'Rubik';
@@ -178,12 +175,10 @@ nav .fa-solid{
         margin-left: -25px;
     }
 
+    
+
 }
-
-
 /*---------------Color Adjustment ---------------*/
-
-
 
 .tab-links::after{
 
