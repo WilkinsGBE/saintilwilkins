@@ -18,14 +18,6 @@ body{
     color: #fff;
 }
 
-#header {
-    width: 100%;
-    height: 100%vh;
-    background-image: url(images/1920s.png);
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 60px;
-}
 
 #header img.phone_picture{
     display: block;
