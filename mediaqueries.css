@@ -86,11 +86,7 @@ nav .fa-solid{
     }
     .contact-right{
         margin-bottom: 20px;
-    }
-
-    .Gif2 img {
-        display: none;
-    }    
+    }  
 
     .copyright{
         font-size: 14px;
@@ -174,8 +170,6 @@ nav .fa-solid{
         text-align: center;
         margin-left: -25px;
     }
-
-    
 
 }
 /*---------------Color Adjustment ---------------*/
