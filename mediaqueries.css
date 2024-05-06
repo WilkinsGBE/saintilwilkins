@@ -168,25 +168,6 @@ nav .fa-solid{
         transition: background 0.5s;
     }
 
-    .header-text h1 {
-        font-size: 50px;
-        margin-top: 20px;
-        margin-bottom: 30%;
-        margin-left: 20px;
-        font-family: 'Rubik';
-        opacity: 0;
-        animation: fadeInAnimation ease-in 3s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards; 
-        color: white;
-        text-shadow: 
-            -1px -1px 0 black,  
-            1px -1px 0 black,
-            -1px  1px 0 black,
-            1px  1px 0 black;
-            font-weight: bold;
-    }
-
     .header-text p{
         font-weight: bold;
         font-family: 'Rubik';
