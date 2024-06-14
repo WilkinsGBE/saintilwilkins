@@ -229,7 +229,7 @@ nav .fa-solid{
 /* --------------------- Media Querries for Ipad ----------------- */
 /* adjustment for the portfolio picture layer scale */
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-width: 768px) and (max-width: 1000px) and (orientation: portrait) {
     
     .Work:hover img{
         transform: scale(1.2);
